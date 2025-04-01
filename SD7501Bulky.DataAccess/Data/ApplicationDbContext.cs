@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using BulkyWeb.Models;
-namespace BulkyWeb.Controllers.Data
+using SD7501BulkyWeb.Models;
+
+namespace SD7501Bulky.DataAccess.Data
 {
     public class ApplicationDbContext :DbContext
     {
