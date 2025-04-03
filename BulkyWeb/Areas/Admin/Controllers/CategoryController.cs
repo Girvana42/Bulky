@@ -3,8 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 using SD7501Bulky.DataAccess.Data;
 using SD7501Bulky.DataAccess.Repository.IRepository;
 
-namespace SD7501BulkyWeb.Controllers
+namespace SD7501BulkyWeb.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
