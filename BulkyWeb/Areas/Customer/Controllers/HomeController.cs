@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using SD7501BulkyWeb.Models;
+using SD7501Bulky.Models;
 
-namespace SD7501BulkyWeb.Areas.Customer.Controllers;
+namespace SD7501Bulky.Areas.Customer.Controllers;
 [Area("Customer")]
 public class HomeController : Controller
 {

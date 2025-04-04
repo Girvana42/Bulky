@@ -1,9 +1,9 @@
-﻿using SD7501BulkyWeb.Models;
+﻿using SD7501Bulky.Models;
 using Microsoft.AspNetCore.Mvc;
 using SD7501Bulky.DataAccess.Data;
 using SD7501Bulky.DataAccess.Repository.IRepository;
 
-namespace SD7501BulkyWeb.Areas.Admin.Controllers
+namespace SD7501Bulky.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class CategoryController : Controller

@@ -1,4 +1,4 @@
- namespace SD7501BulkyWeb.Models
+ namespace SD7501Bulky.Models
 {
     public class ErrorViewModel
     {

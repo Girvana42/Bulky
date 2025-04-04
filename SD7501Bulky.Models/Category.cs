@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
- namespace SD7501BulkyWeb.Models
+ namespace SD7501Bulky.Models
 {
     public class Category
     {
