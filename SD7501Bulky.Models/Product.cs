@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -29,6 +30,7 @@ namespace SD7501Bulky.Models
         public double Price { get; set; }
         [Required]
         [Display(Name = "Price for 50+")]
+        [Range(1, 1000)]
         public double Price50 { get; set; }
         [Required]
         [Display(Name = "Price for 100+")]
@@ -39,8 +41,9 @@ namespace SD7501Bulky.Models
         public int CategoryID { get; set; }
         //navigation property
         [ForeignKey("CategoryID")]
+        [ValidateNever]
         public Category Category { get; set; }
-
+        [ValidateNever]
         public string ImageUrl { get; set; }
     }
 }
